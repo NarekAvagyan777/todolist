@@ -1,0 +1,27 @@
+.form {
+  @apply grid xs:grid-cols-12 gap-y-4 xs:gap-x-6;
+}
+
+.input {
+  @apply text-sm xs:text-[16px] h-[40px] xs:h-[50px] w-full p-4 pr-20 xs:pr-40 outline-none rounded-[4px] border-2 border-solid border-[#FFCD04];
+}
+
+.errorInput {
+  @apply border-[#FF3104];
+}
+
+.errorMesssge {
+  @apply text-[#FF3104] text-xs;
+}
+
+.crossWrapper {
+  @apply absolute right-0 top-0 w-[70px] h-full ml-40 flex justify-center items-center;
+}
+
+.addButtonWrapper {
+  @apply col-span-12 xs:col-span-1 flex justify-end xs:inline-block;
+}
+
+.addButtonWrapper button {
+  @apply rounded-[4px] bg-[#008594] text-white w-[88px] xs:w-[100px] h-[40px] xs:h-[50px];
+}

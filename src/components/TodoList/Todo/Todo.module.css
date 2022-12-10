@@ -1,0 +1,11 @@
+.todoWrapper {
+  @apply hover:bg-gray-200 flex xs:w-full xl:w-[94%] 2xl:w-[92%] py-5 pr-16 sm:pr-28 lg:pr-0 relative border-b-2;
+}
+
+.removeButtonWrapper {
+  @apply flex justify-end items-center;
+}
+
+.removeButton {
+  @apply absolute top-6 right-0 flex justify-center w-6 xs:w-12;
+}

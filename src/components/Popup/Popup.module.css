@@ -1,0 +1,7 @@
+.popupWrapper {
+  @apply fixed z-[100] w-[100vw] h-[100vh] flex justify-center items-center bg-[#00000040];
+}
+
+.popup {
+  @apply py-6 mb:text-[15px] mb:px-6 xs:text-[17px] xs:px-10 xs:py-12 rounded-[4px] bg-white;
+}

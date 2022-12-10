@@ -1,0 +1,7 @@
+.hideCompletedWrapper {
+  @apply xs:grid xs:grid-cols-10;
+}
+
+.wrapper {
+  @apply flex justify-end items-center mb-20;
+}

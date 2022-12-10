@@ -1,0 +1,7 @@
+.blankPage div:first-of-type {
+  @apply mb-1 text-center text-xs xs:text-sm text-[#ACACAC];
+}
+
+.blankPage:last-child {
+  @apply text-center text-sm xs:text-lg font-medium text-[#666666] xs:tracking-[1px];
+}
